@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/lorenzo/Téléchargements/CLion-2024.3/clion-2024.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/lorenzo/Documents/ENSEA/2A/TPSynthese1 -B/home/lorenzo/Documents/ENSEA/2A/TPSynthese1/cmake-build-debug
+  command = /home/lorenzo/Apps_AppImage/CLion-2024.3/clion-2024.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/lorenzo/Documents/ENSEA/2A/TPSynthese1 -B/home/lorenzo/Documents/ENSEA/2A/TPSynthese1/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /home/lorenzo/Téléchargements/CLion-2024.3/clion-2024.3/bin/ninja/linux/x64/ninja $FILE_ARG -t clean $TARGETS
+  command = /home/lorenzo/Apps_AppImage/CLion-2024.3/clion-2024.3/bin/ninja/linux/x64/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /home/lorenzo/Téléchargements/CLion-2024.3/clion-2024.3/bin/ninja/linux/x64/ninja -t targets
+  command = /home/lorenzo/Apps_AppImage/CLion-2024.3/clion-2024.3/bin/ninja/linux/x64/ninja -t targets
   description = All primary targets available:
 
