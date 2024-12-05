@@ -18,4 +18,4 @@ Cependant cela n'est pas sans faille, les IA génératives sont capables grace �
 
 ## Ce que j'en ai retenu / appris : 
 
-  Au cours de ce tp j'ai pu apprendre de nouvelles fonctions indispensables, je fais référence au token en particulier, mais d'autres fonctions telles que le strcmp 
+  Au cours de ce tp j'ai pu apprendre de nouvelles fonctions indispensables, je fais référence au token ert au execvp en particulier, mais d'autres fonctions telles que le strcmp, et le strok
