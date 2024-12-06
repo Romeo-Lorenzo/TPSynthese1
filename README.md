@@ -1,6 +1,6 @@
 # Vous trouverez ici mon TP de Synthèse ENSEASH
 
-Mon binome de TP est Sammy GROS
+Mon binome de TP est Sammy GROS, j'ai pu atteindre et terminer l'étape d'implémentation de la redirection vers stdin et stdout.
 
 ## Organisation de mes fichiers :
 
@@ -18,4 +18,4 @@ Cependant cela n'est pas sans faille, les IA génératives sont capables grace �
 
 ## Ce que j'en ai retenu / appris : 
 
-  Au cours de ce tp j'ai pu apprendre de nouvelles fonctions indispensables, je fais référence au token ert au execvp en particulier, mais d'autres fonctions telles que le strcmp, et le strok
+  Au cours de ce tp j'ai pu apprendre de nouvelles fonctions indispensables, je fais référence au token ert au execvp en particulier, mais d'autres fonctions telles que le strcmp, et le strok, leur fonctionnement et la manière dont il fallait les implémenter. J'ai aussi pu progresser dans la structuration du code et la séparation des fonctions, notamment en appliquant les méthodes de structuration utilisées lors du projet java, soit correctement scinder les différentes fonctions afin d'en faciliter la relecture, dans ce cas peu complexe on pourrait éventuellement répondre dans des fichiers "QX.c" mais le code deviendrait tout de meme cahotique assez rapidement, mais ca permet tout de meme de valider assez facilement le bon fonctionnement des différentes fonctionnalités implémentées au fur et à mesure. J'ai aussi pu faire l'expérience de l'importance de la structure lorsque l'on travaille avec des fork, il faut bien comprendre la différenciation des processus.
